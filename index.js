@@ -1,5 +1,11 @@
 var readlineSync = require('readline-sync');
-var input_batter = readlineSync.question("Choose a batter?")
+
+var recipe_names=["dosa_batter","idli_batter","adai_batter","pessarattu_batter"]
+console.log(recipe_names)
+
+var input_batter = readlineSync.question("Choose an item from the above list?")
+
+
 var input_quantity = readlineSync.question("Choose the quantity of the batter")
 
 
@@ -69,32 +75,12 @@ var items = [
           // console.log(items[i].poha)
 
           }
-      
+
+       
+
     }
 
 
-
-
-
-
-
-// let a = {x: 200, y: 1, z:0,k:4}
-// let attributes = Object.keys(a)
-// console.log(attributes)
-// console.log(a.x)
-
-
-// for (i=0;i<attributes.length;i++)
-// {
-//   current_value=(attributes[i])
-//   console.log(current_value)
-//   console.log(a.current_value) 
-  
-// }
-
-
-    
-    
 
 
 
